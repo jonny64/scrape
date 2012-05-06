@@ -1,0 +1,29 @@
+<workbook>
+ <worksheet name="report">
+   <format align="center" valign="vcenter" bold="bold" border="2">
+     <row>
+       <cell width="15">Country</cell>
+       <cell width="15">Company Name</cell>
+       <cell width="15">First Name</cell>
+       <cell width="15">Last Name</cell>
+       <cell width="15">Email</cell>
+       <cell width="15">Telephone</cell>
+       <cell width="15">Website</cell>
+     </row>
+   </format>
+
+   <format border="1">
+     <loop name="report_data">
+       <row>
+         <cell><var name="country" /></cell>
+         <cell><var name="company_name" /></cell>
+         <cell><var name="first" /></cell>
+         <cell><var name="last" /></cell>
+         <cell><var name="email" /></cell>
+         <cell><var name="tel" /></cell>
+         <cell><var name="website" /></cell>
+       </row>
+     </loop>
+   </format>
+ </worksheet>
+</workbook>
